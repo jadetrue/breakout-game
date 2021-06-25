@@ -1,0 +1,20 @@
+// resets, variables, mixins, and any utility classes.
+$primaryColor: #56cbf9;
+$secondaryColor: #7fbeeb;
+$bg-color: #afbed1;
+$ball: #eac5d8;
+$slider: #dbd8f0;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+canvas { 
+    background-color: $bg-color;
+    display: block; 
+    margin: 0 auto; 
+}
