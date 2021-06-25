@@ -5,9 +5,8 @@ $bg-color: #afbed1;
 $ball: #eac5d8;
 $slider: #ecebf5;
 
-
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,4 +16,9 @@ canvas {
     background-color: $bg-color;
     display: block; 
     margin: 0 auto; 
+}
+
+h1, #copyright { 
+    margin: 20px;
+    text-align: center;
 }

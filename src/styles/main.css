@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -9,4 +9,9 @@ canvas {
   background-color: #afbed1;
   display: block;
   margin: 0 auto;
+}
+
+h1, #copyright {
+  margin: 20px;
+  text-align: center;
 }
